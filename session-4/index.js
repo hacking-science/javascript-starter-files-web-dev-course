@@ -1,7 +1,44 @@
 // ****************************************************TASK 1 - OBJECTS****************************************************
 
 
+let personA = {
+    name: "Harjeet",
+    age: 27,
+    location: "London", 
+    likes: "photography"
+};
 
+
+let personB = {
+    name: "Nadine",
+    age: 34,
+    location: "London", 
+    likes: "kickboxing"
+};
+
+let personC = {
+    name: "Rakinder",
+    age: 33,
+    location: "Coventry", 
+    likes: "yoga"
+};
+
+let personD= {
+    name: "Greg",
+    age: 30,
+    location: "California", 
+    likes: "Meditation"
+};
+
+console.log(personB.age);
+console.log(personC.location);
+
+function biography(person){
+    return "Hi my name is " + person.name + ". I am " + person.age + " years old, I live in " + person.location + " and I enjoy " + person.likes + "!"
+}
+
+console.log(biography(personD));
+console.log(biography(personA));
 
 
 
